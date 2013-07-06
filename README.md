@@ -14,7 +14,7 @@ Installing `talkypi` is easy:
 
 Configure `talkypi` like so:
 
-* Login to your [Prowl acocunt](http://www.prowlapp.com) account, click the **API Keys** tab at the top right of the page, then click **Generate Key** under the **Generate a new API key** section (you may wish to give the new key a memorable name for future reference)
+* Login to your [Prowl account](http://www.prowlapp.com) account, click the **API Keys** tab at the top right of the page, then click **Generate Key** under the **Generate a new API key** section (you may wish to give the new key a memorable name for future reference)
 * Copy the new API key 
 * Create a `.talkypi` file in your home directory and paste the API key into it
 
