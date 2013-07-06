@@ -1,5 +1,5 @@
 #talkypi
-Do you need to be notified when Something Interesting&trade; happens on your headless [Raspberry Pi](http://www.raspberrypi.org) system?  You've come to the right place.  `talkypi` is a tiny ruby script that leverages the power of [Prowl](http://www.prowlapp.com) to send notifications to iOS (and [other](http://www.prowlapp.com/apps.php)) devices.
+Do you need to be notified when Something Interesting&trade; happens on your headless [Raspberry Pi](http://www.raspberrypi.org)?  You've come to the right place.  `talkypi` is a tiny ruby script that leverages the power of [Prowl](http://www.prowlapp.com) to send notifications to iOS (and [other](http://www.prowlapp.com/apps.php)) devices.
 
 ##Prerequisites
 You'll need a copy of [Ruby](http://www.ruby-lang.org) on your Raspberry Pi and the [Prowl app](http://click.linksynergy.com/fs-bin/click?id=tspFh8jh3l4&subid=&offerid=146261.1&type=10&tmpid=3909&RD_PARM1=http%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Fprowl-growl-client%2Fid320876271%3Fmt%3D8%2526uo%3D4) installed on your iOS device.  Make sure you register your device with Prowl correctly in order to receive notifications on it.
