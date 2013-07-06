@@ -19,7 +19,7 @@ Configure `talkypi` like so:
 * Create a `.talkypi` file in your home directory and paste the API key into it
 
 ##Usage
-Using `talkypi` is easy:
+Use `talkypi` from the command-line:
 
 ```
 $ talkypi [event title] [description]
