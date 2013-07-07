@@ -22,7 +22,7 @@ Configure `talkypi` like so:
 Use `talkypi` from the command-line:
 
 ```
-$ talkypi [event title] [description]
+$ talkypi "event title" "longer description"
 ```
 
 The notification will be delivered to any devices you've registered with Prowl.
