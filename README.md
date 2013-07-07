@@ -8,7 +8,9 @@ You'll need a copy of [Ruby](http://www.ruby-lang.org) on your Raspberry Pi and 
 
 Installing `talkypi` is easy:
 
-`$ gem install talkypi`
+```
+$ gem install talkypi
+```
 
 ##Configuration
 
@@ -28,6 +30,31 @@ $ talkypi "event title" "longer description"
 The notification will be delivered to any devices you've registered with Prowl.
 
 You can call `talkypi` from shell scripts or cron jobs.  Let your imagination run wild!
+
+##Fun Stuff
+
+###Reboot notifications
+Using a simple cron job you can generate notifications whenever your Raspberry Pi reboots:
+
+Find out where `talkypi` was installed:
+
+```
+$ which talkypi
+/usr/local/opt/ruby/bin/talkypi
+```
+
+Open your crontab file for editing:
+
+```shell
+$ crontab -e
+```
+
+Enter the following line, replacing the path to `talkypi` with the output from the `which` command above:
+```
+@reboot sleep 10; /usr/local/opt/ruby/bin/talkypi "system event" "the system restarted successfully"
+```
+
+The `sleep` command isn't strictly necessary, but you may find that without it notifications don't work &mdash; it gives your system time to bring up the network interfaces before attempting to send the notification.
 
 ##Acknowledgements
 `talkypi` makes use of the following libraries:
