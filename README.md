@@ -33,8 +33,8 @@ You can call `talkypi` from shell scripts or cron jobs.  Let your imagination ru
 
 ##Fun Stuff
 
-###Reboot notifications
-Using a simple cron job you can generate notifications whenever your Raspberry Pi reboots:
+###Startup notifications
+Using a simple cron job you can generate a notification whenever your Raspberry Pi starts up (after a power loss or manual/automatic reboot):
 
 Find out where `talkypi` was installed:
 
@@ -51,7 +51,7 @@ $ crontab -e
 
 Enter the following line, replacing the path to `talkypi` with the output from the `which` command above:
 ```
-@reboot sleep 10; /usr/local/opt/ruby/bin/talkypi "system event" "the system restarted successfully"
+@reboot sleep 10; /usr/local/opt/ruby/bin/talkypi "system event" "the system powered up successfully"
 ```
 
 The `sleep` command isn't strictly necessary, but you may find that without it notifications don't work &mdash; it gives your system time to bring up the network interfaces before attempting to send the notification.
