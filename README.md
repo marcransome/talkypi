@@ -1,4 +1,4 @@
-# talkypi
+# talkypi [![Code Climate](https://codeclimate.com/github/marcransome/talkypi.png)](https://codeclimate.com/github/marcransome/talkypi)
 Do you need to be notified when Something Interesting&trade; happens on your headless [Raspberry Pi](http://www.raspberrypi.org)?  You've come to the right place.  `talkypi` is a tiny ruby script that leverages the power of [Prowl](http://www.prowlapp.com) to send notifications to iOS (and [other](http://www.prowlapp.com/apps.php)) devices.
 
 ## Prerequisites
