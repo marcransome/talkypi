@@ -1,4 +1,4 @@
-# talkypi [![Code Climate](http://img.shields.io/codeclimate/github/marcransome/talkypi.svg)](https://codeclimate.com/github/marcransome/talkypi)
+# talkypi
 Do you need to be notified when Something Interesting&trade; happens on your headless [Raspberry Pi](http://www.raspberrypi.org)?  You've come to the right place.  `talkypi` is a tiny ruby script that leverages the power of [Prowl](http://www.prowlapp.com) to send notifications to iOS (and [other](http://www.prowlapp.com/apps.php)) devices.
 
 ## Prerequisites
@@ -64,4 +64,4 @@ The `sleep` command isn't strictly necessary, but you may find that without it n
 `talkypi` is provided under the terms of the [MIT License](http://opensource.org/licenses/mit-license.php).
 
 ## Contact
-Email me at [marc.ransome@fidgetbox.co.uk](mailto:marc.ransome@fidgetbox.co.uk) or tweet [@marcransome](http://www.twitter.com/marcransome).
+Email me at [marc.ransome@fidgetbox.co.uk](mailto:marc.ransome@fidgetbox.co.uk) or [create an issue](https://github.com/marcransome/talkypi/issues).
